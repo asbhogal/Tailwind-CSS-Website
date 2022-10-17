@@ -2,6 +2,8 @@
 
 <h1>Tailwind CSS Website</h1>
 
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Tailwind-CSS-Website?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Tailwind-CSS-Website?color=blueviolet&style=for-the-badge&labelColor=000)
+
 </div>
 
 A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a crash course by Traversy Media. This repo is currently under development.
