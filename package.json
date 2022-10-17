@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "vercel": "^28.4.11"
   }
 }
