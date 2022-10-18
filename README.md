@@ -1,12 +1,12 @@
 <div align="center">
 
-<h1>Tailwind CSS Website</h1>
+<h1>Manage Landing Page - Frontend Mentor Challenge Project</h1>
 
 ![](https://api.checklyhq.com/v1/badges/checks/e5efa42b-1b7b-4cac-b6b9-3c0226dbd0c1?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/e5efa42b-1b7b-4cac-b6b9-3c0226dbd0c1?style=for-the-badge&theme=dark&responseTime=true)<br><br>![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Tailwind-CSS-Website/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Tailwind-CSS-Website?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Tailwind-CSS-Website?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
-A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a crash course by Traversy Media. This repo is currently under development.
+A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a challenge by Frontend Mentor and demonstrated by Traversy Media. This repo is currently under development.
 
 <strong>:heavy_check_mark: Features</strong><br>
   - Modern, stylish interface
@@ -23,5 +23,6 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
 <strong>:link: Links</strong>
 <br>
- - <a target="_blank" rel="noopener noreferrer" href="https://tailwind-css-website-rho.vercel.app/">Tailwind CSS Project</a>
+ - <a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">Frontend Mentor Challenge</a>
+ - <a target="_blank" rel="noopener noreferrer" href="https://tailwind-css-website-rho.vercel.app/">Manage Landing Page</a>
  - <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dFgzHOX84xQ">Tailwind Crash Course - Traversy Media</a>
