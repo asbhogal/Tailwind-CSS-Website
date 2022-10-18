@@ -1,6 +1,4 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base {
     html {
@@ -10,7 +8,7 @@
         @apply font-bold;
     }
     h2 {
-        @apply font-bold;
+        @apply font-medium;
     }
     h5 {
         @apply font-bold;
@@ -19,12 +17,19 @@
         @apply font-normal;
         @apply text-base;
     }
+    .button a {
+        @apply font-bold;
+    }
 }
+
+@tailwind components;
+@tailwind utilities;
 
 /****** BE VIETNAM PRO - 400 - REGULAR ******/
 
 @font-face {
     font-family: 'Be Vietnam Pro';
+    font-style: normal;
     font-weight: 400;
     src:    url('fonts/BeVietnamPro-Regular.woff'), format('woff'),
             url('fonts/BeVietnamPro-Regular.woff2'), format('woff2');
@@ -46,6 +51,7 @@
 @font-face {
     font-family: 'Be Vietnam Pro';
     font-weight: 700;
+    font-style: normal;
     src:    url('fonts/BeVietnamPro-Bold.woff'), format('woff'),
             url('fonts/BeVietnamPro-Bold.woff2'), format('woff2');
     font-display: swap;
