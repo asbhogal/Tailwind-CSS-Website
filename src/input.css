@@ -4,13 +4,16 @@
 
 @layer base {
     html {
-        font-family: 'Be Vietnam Pro', sans-serif;
+        font-family: 'Be Vietnam Pro', sans-serif !important;
     }
     h1 {
         @apply font-bold;
     }
     h2 {
-        @apply font-medium;
+        @apply font-bold;
+    }
+    h5 {
+        @apply font-bold;
     }
     p {
         @apply font-normal;
