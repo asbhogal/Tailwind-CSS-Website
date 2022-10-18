@@ -600,6 +600,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .flex {
   display: flex;
 }
@@ -614,6 +618,10 @@ video {
 
 .max-w-sm {
   max-width: 24rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .flex-col {
