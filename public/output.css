@@ -728,6 +728,11 @@ p {
   border-radius: 0.5rem;
 }
 
+.rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
 .bg-brightRed {
   --tw-bg-opacity: 1;
   background-color: rgb(242 95 58 / var(--tw-bg-opacity));
