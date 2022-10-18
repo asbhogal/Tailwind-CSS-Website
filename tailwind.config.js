@@ -18,6 +18,9 @@ module.exports = {
         veryDarkBlue          :   '#1d1e25',
         veryPaleRed           :   '#ffefeb',
         veryLightGray         :   '#fafafa',
+      },
+      fontFamily: {
+        
       }
     }
   },

@@ -410,6 +410,22 @@ video {
   height: auto;
 }
 
+html {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -624,16 +640,8 @@ video {
   max-width: 24rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
-}
-
 .flex-col {
   flex-direction: column;
-}
-
-.flex-col-reverse {
-  flex-direction: column-reverse;
 }
 
 .items-center {
@@ -688,11 +696,6 @@ video {
   border-radius: 9999px;
 }
 
-.rounded-l-full {
-  border-top-left-radius: 9999px;
-  border-bottom-left-radius: 9999px;
-}
-
 .bg-brightRed {
   --tw-bg-opacity: 1;
   background-color: rgb(242 95 58 / var(--tw-bg-opacity));
@@ -732,10 +735,6 @@ video {
 
 .text-center {
   text-align: center;
-}
-
-.align-middle {
-  vertical-align: middle;
 }
 
 .text-4xl {
@@ -783,6 +782,45 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
+/****** BE VIETNAM PRO - 400 - REGULAR ******/
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-weight: 400;
+
+  src:    url('fonts/BeVietnamPro-Regular.woff'), format('woff'),
+            url('fonts/BeVietnamPro-Regular.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
+/****** BE VIETNAM PRO - 500 - MEDIUM ******/
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-weight: 500;
+
+  src:    url('fonts/BeVietnamPro-Medium.woff'), format('woff'),
+            url('fonts/BeVietnamPro-Medium.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
+/****** BE VIETNAM PRO - 700 - BOLD ******/
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-weight: 700;
+
+  src:    url('fonts/BeVietnamPro-Bold.woff'), format('woff'),
+            url('fonts/BeVietnamPro-Bold.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
 .hover\:bg-brightRedLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(246 134 106 / var(--tw-bg-opacity));
@@ -807,10 +845,6 @@ video {
 
   .md\:block {
     display: block;
-  }
-
-  .md\:inline-block {
-    display: inline-block;
   }
 
   .md\:flex {
