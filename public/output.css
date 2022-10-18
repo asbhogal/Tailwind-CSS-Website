@@ -604,6 +604,10 @@ video {
   margin-top: 8rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
 .flex {
   display: flex;
 }
