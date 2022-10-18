@@ -26,3 +26,12 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
  - <a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">Frontend Mentor Challenge</a>
  - <a target="_blank" rel="noopener noreferrer" href="https://tailwind-css-website-rho.vercel.app/">Manage Landing Page</a>
  - <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dFgzHOX84xQ">Tailwind Crash Course - Traversy Media</a>
+
+ <strong>Notes</strong>
+
+ While the app has the Tailwind CSS CDN integrated for browser-side deployment, it is highly recommended to run this locally and install Tailwind via npm as follows:
+  - Clone the repo to your local computer
+  - In the project directory, run <code>npm install -D tailwindcss</code>
+  - Run <code>npm run watch-css</code> to begin the live watch (using existing config)
+
+  N.B. This assumed you keep the dirs and <code>tailwind.config.js</code> file exactly as seen in the repo files. If you wish to change this, you will either need to change the source and output dirs and config file as necessary or generate a new one via <code>npx tailwindcss init</code> and adjust it accordingly. For any other information regarding Tailwind installation and configuration please visit the <a target="_blank" rel="noopener noreferrer" href="https://tailwindcss.com/docs/installation">Official Documentation</a>.
