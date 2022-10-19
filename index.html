@@ -11,6 +11,8 @@
         <script src="https://cdn.tailwindcss.com"></script>
         <!-- MAIN STYLESHEET -->
         <link rel="stylesheet" href="public/output.css">
+        <!-- MAIN SCRIPT -->
+        <script src="src/script.js" defer></script>
     </head>
     <body>
         <!-- NAV BAR -->
@@ -242,12 +244,22 @@
                 </div>
 
                 <!-- NEWSLETTER SIGN UP -->
-                <div class="flex flex-col justify-between">
-                    <form>
-                        <div class="flex space-x-3">
-
+                <div class="flex flex-col items-center justify-between sm:py-5">
+                    <div class="flex">
+                        <div class="flex space-x-3 px-1.5">
+                            <div class="flex flex-col">
+                                <input id="email-address-input" class="p-3 px-6 pt-2 text-darkBlue bg-white rounded-full" placeholder="Updates in your inbox..." type="text">
+                                <p id="response-message"><p>
+                            </div>
                         </div>
-                    </form>
+                        <div>
+                            <button id="submit-email-address" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline transition ease-in hover:bg-brightRedLight">Submit</button>
+                        </div>
+                    </div>
+                                <!-- COPYRIGHT BANNER -->
+            <div class="flex flex-col">
+                <p>Copyright 2020. All Rights Reserved</p>
+            </div>
                 </div>
             </div>
         </footer>
