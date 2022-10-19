@@ -19,6 +19,7 @@
     }
     .button a {
         @apply font-bold;
+        @apply text-sm;
     }
 }
 
