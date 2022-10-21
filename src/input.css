@@ -28,6 +28,12 @@
     h1, h2, h3, h5 {
         @apply text-darkBlue;
     }
+    .social-icons-footer {
+        scale: 1.3;
+        @media only screen and (max-width: 376px) {
+            scale: 5;
+        }
+    }
 }
 
 body {
