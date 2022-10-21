@@ -29,9 +29,21 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  <strong>:fountain_pen: Notes</strong>
 
+ ##### PRODUCTION BUILD & DEPLOYMENT #####
+
  While the app has the Tailwind CSS CDN integrated for browser-side deployment, it is highly recommended to run this locally and install Tailwind via npm as follows:
   - Clone the repo to your local computer
   - In the project directory, run <code>npm install -D tailwindcss</code> via your chosen CLI
   - Run <code>npm run watch-css</code> to begin the live watch (using existing config)
 
   N.B. This assumes you keep the structure incl. <code>/public</code> and <code>/src</code> dirs and <code>tailwind.config.js</code> file exactly as seen in the repo files. If you wish to change this, you will either need to change the source and output dirs and config file as necessary or generate a new one via <code>npx tailwindcss init</code> and adjust it accordingly. For any other information regarding Tailwind installation and configuration please visit the <a target="_blank" rel="noopener noreferrer" href="https://tailwindcss.com/docs/installation">Official Documentation</a>.
+
+ ##### SOURCE ASSETS #####
+
+ All assets used deemed relevant for this project to be used client-side and cloned to a local computer have been added in their respective directories. Below are a list of key source files which, if modified for any customisation, will need. This is not meant to be exhaustive.
+
+  - The <code>Fonts</code> are locally hosted and can be found in the <code>src</code> directory under <code>/fonts</code> Any changes to these will subs. need to be made in the <code>input.css</code> stylesheet in order for Tailwind to compile it correctly to the <code>output.css</code>
+
+##### PULL REQUESTS #####
+
+While the repo owner is open to new/alertnative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to improved functionality, accessibility or stability. PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
