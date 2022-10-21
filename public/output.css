@@ -199,6 +199,12 @@
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -307,6 +313,14 @@
   padding-top: 0.5rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -346,6 +360,10 @@
 
 .lowercase {
   text-transform: lowercase;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .leading-tight {
@@ -828,7 +846,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h5 {

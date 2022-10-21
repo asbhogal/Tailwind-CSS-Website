@@ -12,6 +12,7 @@
     }
     h2 {
         @apply font-medium;
+        @apply font-bold;
     }
     h5 {
         @apply font-bold;
