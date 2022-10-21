@@ -8,6 +8,7 @@
     }
     h1 {
         @apply font-bold;
+        @apply text-darkBlue;
     }
     h2 {
         @apply font-medium;
@@ -23,13 +24,16 @@
         @apply font-bold;
         @apply text-sm;
     }
+    h1, h2, h3, h5 {
+        @apply text-darkBlue;
+    }
 }
 
 body {
     background-image: url('../src/img/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
     background-size: 800px;
-    background-position-x: 130% -15%;
+    background-position: 120% -15%;
 }
 
 @media only screen and (max-width: 376px) {

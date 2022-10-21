@@ -823,6 +823,8 @@ html {
 
 h1 {
   font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(36 45 82 / var(--tw-text-opacity));
 }
 
 h2 {
@@ -843,6 +845,11 @@ p {
   font-weight: 700;
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+h1,  h2,  h3,  h5 {
+  --tw-text-opacity: 1;
+  color: rgb(36 45 82 / var(--tw-text-opacity));
 }
 
 *, ::before, ::after {
@@ -990,14 +997,12 @@ body {
   background-image: url('../src/img/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
   background-size: 800px;
-  background-position-x: 130%;
-  background-position-y: -15%;
+  background-position: 120% -15%;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
   body {
-    background-image: url('../src/img/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
+    background-position-x: 50px -50%;
   }
 }
 
