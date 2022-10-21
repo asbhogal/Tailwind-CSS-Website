@@ -29,6 +29,8 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  <strong>:fountain_pen: Notes</strong>
 
+ Forking/cloning this repo to work on yourself is welcome. Before doing so however, the repo owner strongly advises reading the following:
+
  ##### PRODUCTION BUILD & DEPLOYMENT #####
 
  While the app has the Tailwind CSS CDN integrated for browser-side deployment, it is highly recommended to run this locally and install Tailwind via npm as follows:
@@ -40,10 +42,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  ##### SOURCE ASSETS #####
 
- All assets used deemed relevant for this project to be used client-side and cloned to a local computer have been added in their respective directories. Below are a list of key source files which, if modified for any customisation, will need. This is not meant to be exhaustive.
+ All assets used deemed relevant for this project to be used client-side and cloned to a local computer have been added in their respective directories. Below are a list of key source files which, if modified for any customisations, will need to be amended respectively. This list is not meant to be exhaustive and may be updated at any one time.
 
-  - The <code>Fonts</code> are locally hosted and can be found in the <code>src</code> directory under <code>/fonts</code> Any changes to these will subs. need to be made in the <code>input.css</code> stylesheet in order for Tailwind to compile it correctly to the <code>output.css</code>
+  - The <code>Fonts</code> are locally hosted and can be found in the <code>src</code> directory under <code>/fonts</code> Any changes to these will subsequently need to be made in the <code>input.css</code> stylesheet in order for Tailwind to compile it correctly to the <code>output.css</code>
+  - The 'attribution' section in the <code>footer</code> will need to be altered to reflect the new owner (being yourself) for any changes that have been made. This would include both the name and the link appended to it (which currently points to this repo)
 
 ##### PULL REQUESTS #####
 
-While the repo owner is open to new/alertnative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to improved functionality, accessibility or stability. PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
+While the repo owner is open to new/alternative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to improved functionality, accessibility or stability. PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these separately, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
