@@ -23,13 +23,13 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
 <strong>:link: Links</strong>
 <br>
- - <a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">Frontend Mentor Challenge</a>
  - <a target="_blank" rel="noopener noreferrer" href="https://tailwind-css-website-rho.vercel.app/">Manage Landing Page</a>
+ - <a target="_blank" rel="noopener noreferrer" href="https://www.frontendmentor.io/challenges/manage-landing-page-SLXqC6P5">Frontend Mentor Challenge</a>
  - <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dFgzHOX84xQ">Tailwind Crash Course - Traversy Media</a>
 
  <strong>:fountain_pen: Notes</strong>
 
- Forking/cloning this repo to work on yourself is welcome. Before doing so however, the repo owner strongly advises reading the following:
+ Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following:
 
  ##### PRODUCTION BUILD & DEPLOYMENT #####
 
@@ -46,6 +46,7 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
   - The <code>Fonts</code> are locally hosted and can be found in the <code>src</code> directory under <code>/fonts</code> Any changes to these will subsequently need to be made in the <code>input.css</code> stylesheet in order for Tailwind to compile it correctly to the <code>output.css</code>
   - The 'attribution' section in the <code>footer</code> will need to be altered to reflect the new owner (being yourself) for any changes that have been made. This would include both the name and the link appended to it (which currently points to this repo)
+  - Deployment for a cloned/forked repo to a third-party hosting will subsequently need the <code>link</code> present in the <code>Links</code> changed respectively to reflect the different repo created
 
 ##### PULL REQUESTS #####
 
