@@ -107,6 +107,10 @@
   max-width: 24rem;
 }
 
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .list-none {
   list-style-type: none;
 }
@@ -1022,6 +1026,8 @@ h1,  h2,  h3,  h5 {
   --tw-backdrop-sepia:  ;
 }
 
+/************************ IMAGES ************************/
+
 body {
   background-image: url('../src/img/bg-tablet-pattern.svg');
   background-repeat: no-repeat;
@@ -1029,11 +1035,29 @@ body {
   background-position: 120% -15%;
 }
 
+#cta-section {
+  background-image: url('../src/img/bg-simplify-section-desktop.svg');
+}
+
+#cta-section::before {
+  content: "";
+  background-image: url('../src/img/bg-simplify-section-desktop.svg');
+  transform: rotate(45deg);
+}
+
+/************************ RESPONSIVE ************************/
+
 @media only screen and (max-width: 376px) {
   body {
     background-position-x: 50px -50%;
   }
+
+  #cta-section {
+    background-image: url('../src/img/bg-simplify-section-mobile.svg') !important;
+  }
 }
+
+/************************ FONTS ************************/
 
 /****** BE VIETNAM PRO - 400 - REGULAR ******/
 
