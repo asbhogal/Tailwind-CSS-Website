@@ -1,4 +1,13 @@
+## PROJECT DEPENDENCIES
+
 node_modules
+
+## TEMPLATE FILES
+
 src/style-guide.md
+src/template-files
+
+## MISC/ ADD. NOTES ##
+
 notes.txt
 old-code.txt
