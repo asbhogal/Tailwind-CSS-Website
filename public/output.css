@@ -225,6 +225,12 @@
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -1262,6 +1268,11 @@ body {
     padding-right: 1.25rem;
   }
 
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .sm\:pt-0 {
     padding-top: 0px;
   }
@@ -1278,6 +1289,12 @@ body {
 
   .md\:flex {
     display: flex;
+  }
+
+  @media (min-width: 768px) {
+    .md\:md\:flex {
+      display: flex;
+    }
   }
 
   .md\:hidden {
@@ -1363,6 +1380,14 @@ body {
 
   .md\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .md\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
+  .md\:pb-4 {
+    padding-bottom: 1rem;
   }
 
   .md\:text-left {
