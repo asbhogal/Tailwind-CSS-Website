@@ -320,6 +320,11 @@
   padding-bottom: 2.5rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -417,6 +422,11 @@
   color: rgb(144 149 167 / var(--tw-text-opacity));
 }
 
+.text-veryLightGray {
+  --tw-text-opacity: 1;
+  color: rgb(250 250 250 / var(--tw-text-opacity));
+}
+
 .text-brightRed {
   --tw-text-opacity: 1;
   color: rgb(242 95 58 / var(--tw-text-opacity));
@@ -499,7 +509,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: Be Vietnam Pro, sans-serif;
   /* 4 */
 }
 
@@ -873,10 +883,6 @@ video {
   display: none;
 }
 
-html {
-  font-family: 'Be Vietnam Pro', sans-serif !important;
-}
-
 h1 {
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -1062,6 +1068,21 @@ h1, h2, h3, h5 {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.swiper-pagination {
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+}
+
+.swiper-pagination-bullet {
+  background-color: red;
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: blue;
 }
 
 /************************ IMAGES ************************/

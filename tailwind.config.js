@@ -8,6 +8,9 @@ module.exports = {
       lg: '976px',
       xl: '1440px',
     },
+    fontFamily: {
+      sans: ['Be Vietnam Pro', 'sans-serif']
+    },
     extend: {
       colors: {
         brightRed             :   '#f25f3a',
@@ -18,7 +21,7 @@ module.exports = {
         veryDarkBlue          :   '#1d1e25',
         veryPaleRed           :   '#ffefeb',
         veryLightGray         :   '#fafafa',
-      }
+      },
     }
   },
   plugins: [],

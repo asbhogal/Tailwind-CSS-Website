@@ -3,9 +3,6 @@
 @tailwind base;
 
 @layer base {
-    html {
-        font-family: 'Be Vietnam Pro', sans-serif !important;
-    }
     h1 {
         @apply font-bold;
         @apply text-darkBlue;
@@ -41,6 +38,22 @@
         border: 1px solid #9095a7;
     }
 }
+
+.swiper-pagination {
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-pagination-bullet {
+    background-color: red;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: blue;
+}
+
 
 /************************ IMAGES ************************/
 
