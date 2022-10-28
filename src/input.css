@@ -39,6 +39,85 @@
     }
 }
 
+/******** MOBILE HAMBURGER MENU ********/
+
+.hamburger {
+    position: relative;
+    cursor: pointer;
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: all 0.5s;
+}
+
+.hamburger-line:nth-child(1),
+.hamburger-line:nth-child(2),
+.hamburger-line:nth-child(3) {
+    position: absolute;;
+    top: 0;
+    left: 0;
+    width: 1.5rem;
+    height: .125rem;
+    background-color: #000;
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -o-transform: rotate(0);
+    -ms-transform: rotate(0);
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition:  all 0.5s ease-in;
+}
+
+.hamburger-line:nth-child(2) {
+    transform: translateY(7px);
+    -webkit-transform: translateY(7px);
+    -moz-transform: translateY(7px);
+    -o-transform: translateY(7px);
+    -ms-transform: translateY(7px);
+}
+
+.hamburger-line:nth-child(3) {
+    transform: translateY(14px);
+    -webkit-transform: translateY(14px);
+    -moz-transform: translateY(14px);
+    -o-transform: translateY(14px);
+    -ms-transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-line:nth-child(1) {
+    top: 50%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.open .hamburger-line:nth-child(2) {
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition:  all 0.5s ease-in;
+}
+
+.open .hamburger-line:nth-child(3) {
+    top: 50%;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+/******** SWIPER PAGINATION BUBBLE ********/
+
 .swiper-pagination {
     height: fit-content;
     margin-top: 9.375rem;
