@@ -22,6 +22,9 @@ module.exports = {
         veryPaleRed           :   '#ffefeb',
         veryLightGray         :   '#fafafa',
       },
+      height: {
+        250: '250px',
+      }
     }
   },
   plugins: [],
