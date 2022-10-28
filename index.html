@@ -272,24 +272,24 @@
                     <div class="flex">
                         <div class="flex space-x-3 px-1.5">
                             <div class="flex flex-col space-y-2">
-                                <input id="email-address-input" class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full outline-none" placeholder="Updates in your inbox..." type="text">
+                                <input id="email-address-input" class="p-3 px-6 pt-2 text-brightRed bg-veryLightGray rounded-full outline-none" placeholder="Updates in your inbox..." type="text">
                                 <p id="response-message" class="italic text-brightRed pl-6"><p>
                             </div>
                         </div>
                         <div>
-                            <button id="submit-email-address" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline transition ease-in hover:bg-brightRedLight">Go</button>
+                            <button id="submit-email-address" class="p-3 px-6 pt-2 text-veryLightGray bg-brightRed rounded-full baseline transition ease-in hover:bg-brightRedLight">Go</button>
                         </div>
                     </div>
-                                <!-- COPYRIGHT BANNER -->
-            <div class="flex flex-col">
-                <p>Copyright 2020. All Rights Reserved</p>
-            </div>
+                    <!-- DESKTOP COPYRIGHT BANNER -->
+                    <div class="hidden flex flex-col text-center md:flex-row md:justify-end md:flex">
+                        <p class="text-darkGrayishBlue">Copyright 2020. All Rights Reserved</p>
+                    </div>
                 </div>
             </div>
-            <div class="attribution">
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-                Coded by <a href="https://github.com/asbhogal/Tailwind-CSS-Website">Aman Singh Bhogal</a>.
-              </div>
+            <!-- MOBILE COPYRIGHT BANNER -->
+            <div class="flex flex-col text-center md:hidden">
+                <p class="text-darkGrayishBlue">Copyright 2020. All Rights Reserved</p>
+            </div>
         </footer>
     </body>
 </html>
