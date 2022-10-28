@@ -1374,6 +1374,11 @@ body {
     padding-bottom: 3rem;
   }
 
+  .md\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
   .md\:pt-14 {
     padding-top: 3.5rem;
   }
