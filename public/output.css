@@ -227,6 +227,10 @@
   align-self: flex-end;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
@@ -1137,6 +1141,14 @@ body {
   fill: #ef4444;
 }
 
+.hover\:fill-brightRedLight:hover {
+  fill: #f6866a;
+}
+
+.hover\:fill-brightRed:hover {
+  fill: #f25f3a;
+}
+
 .hover\:text-darkGrayishBlue:hover {
   --tw-text-opacity: 1;
   color: rgb(144 149 167 / var(--tw-text-opacity));
@@ -1145,6 +1157,11 @@ body {
 .hover\:text-brightRedLight:hover {
   --tw-text-opacity: 1;
   color: rgb(246 134 106 / var(--tw-text-opacity));
+}
+
+.hover\:text-brightRed:hover {
+  --tw-text-opacity: 1;
+  color: rgb(242 95 58 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
