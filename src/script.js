@@ -8,13 +8,13 @@ const 	emailAddressInput = document.getElementById('email-address-input'),
 // FUNCTION WHICH CHECKS IF AN EMAIL IS ENTERED 
 
 function checkInputPresent (email) {
-	return (!emailAddressInput.value) ? (responseMessage.innerHTML = "Please enter an email address", emailAddressInput.style.borderColor = "red", emailAddressInput.style.outlineColor = "red") 
-		: toLowerCase(email);
+	return (emailAddressInput.value) ? (convertToLowerCase(email)) 
+		: (responseMessage.innerHTML = "Please enter an email address", emailAddressInput.classList.add('input-failed'));
 }
 
 // FUNCTION WHICH CONVERTS ALL THE CHARACTERS IN THE EMAIL ADDRESS --> LOWER CASE
 
-function toLowerCase () {
+function convertToLowerCase () {
 	convertedEmail = String(emailAddressInput.value).toLowerCase();
 	validateEmail();
 }
@@ -22,8 +22,8 @@ function toLowerCase () {
 // FUNCTION WHICH VALIDATES THE EMAIL ENTERED
 
 function validateEmail() {
-	return (regex.test(emailAddressInput.value) == true) ? (responseMessage.innerHTML = "Thank you for signing up!", emailAddressInput.value = "", emailAddressInput.style.borderColor = "green", emailAddressInput.style.outlineColor = "green")
-		: (responseMessage.innerHTML = "Please insert a valid email", emailAddressInput.style.borderColor = "red", emailAddressInput.style.outlineColor = "red")
+	return (regex.test(emailAddressInput.value) == true) ? (responseMessage.innerHTML = "Thank you for signing up!", emailAddressInput.value = "", emailAddressInput.classList.add('input-success'))
+		: (responseMessage.innerHTML = "Please insert a valid email", emailAddressInput.classList.add('input-failed'))
 }
 
 // TRIGGER WHICH CALLS THE FIRST FUNCTION ON 'SUBMIT' BUTTON CLICK

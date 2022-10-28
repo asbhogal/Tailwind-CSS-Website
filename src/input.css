@@ -34,6 +34,12 @@
             scale: 5;
         }
     }
+    .input-failed {
+        border: 1px solid #f25f3a;
+    }
+    .input-success {
+        border: 1px solid #9095a7;
+    }
 }
 
 /************************ IMAGES ************************/
