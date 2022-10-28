@@ -22,7 +22,7 @@ function convertToLowerCase () {
 // FUNCTION WHICH VALIDATES THE EMAIL ENTERED
 
 function validateEmail() {
-	return (regex.test(emailAddressInput.value) == true) ? (responseMessage.innerHTML = "Thank you for signing up!", emailAddressInput.value = "", emailAddressInput.classList.add('input-success'))
+	return (regex.test(emailAddressInput.value) == true) ? (responseMessage.innerHTML = "Thank you for signing up!", emailAddressInput.value = "", emailAddressInput.classList.add('input-success'), emailAddressInput.classList.remove('input-failed'))
 		: (responseMessage.innerHTML = "Please insert a valid email", emailAddressInput.classList.add('input-failed'))
 }
 
@@ -55,7 +55,7 @@ let swiper = new Swiper(".testimonial-slider", {
     loopFillGroupWithBlank: false,
     autoplay: {
         delay: 2500,
-        disableOnInteraction: false,
+        disableOnInteraction: true,
     },
 
     pagination: {
