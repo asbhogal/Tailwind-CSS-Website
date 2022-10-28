@@ -59,9 +59,16 @@
 
 body {
     background-image: url('../src/img/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
     background-size: 800px;
+    background-repeat: no-repeat;
     background-position: 120% -15%;
+}
+
+#features {
+    background-image: url('../src/img/bg-tablet-pattern.svg');
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: -10% 15%;
 }
 
 #cta-section {
