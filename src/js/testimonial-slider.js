@@ -1,5 +1,3 @@
-// TESTIMONIAL SLIDER
-
 let swiper = new Swiper(".testimonial-slider", {
     slidesPerView: 4,
     spaceBetween: 30,
@@ -9,15 +7,13 @@ let swiper = new Swiper(".testimonial-slider", {
     loopFillGroupWithBlank: false,
     autoplay: {
         delay: 2500,
-        disableOnInteraction: true,
+        disableOnInteraction: false,
     },
 
     pagination: {
         el: ".swiper-pagination",
         type: "bullets",
-        dynamicBullets: true,
         clickable: true,
-        dynamicMainBullets: 4,
     },
 
     breakpoints: {

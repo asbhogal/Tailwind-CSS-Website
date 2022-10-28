@@ -40,18 +40,24 @@
 }
 
 .swiper-pagination {
-    background-color: yellow;
-    position: absolute;
-    top: 50%;
+    height: fit-content;
+    margin-top: 9.375rem;
 }
 
 .swiper-pagination-bullet {
-    background-color: red;
+    border: 1px solid #f25f3a;
+    background-color: transparent;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active {
-    background-color: blue;
+    background-color: #f25f3a;
+}
+
+@media only screen and (min-width: 700px) {
+    .swiper-pagination {
+        display: none;
+    }
 }
 
 

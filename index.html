@@ -9,6 +9,8 @@
         <link rel="shortcut icon" href="src/img/favicon-32x32.png" type="image/x-icon" sizes="32x32">
         <!-- TAILWIND STYLESHEET (FOR CLIENT DEPLOYMENT) -->
         <script src="https://cdn.tailwindcss.com"></script>
+        <!-- SWIPER JS STYLESHEET -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
         <!-- MAIN STYLESHEET -->
         <link rel="stylesheet" href="public/output.css">
         <!-- SWIPER JS SCRIPT -->
@@ -21,6 +23,7 @@
         <script src="src/js/testimonial-slider.js" defer></script>
     </head>
     <body>
+
         <!-- NAV BAR -->
         <nav class="relative container mx-auto px-12 py-16">
             <!-- FLEX CONTAINER -->
@@ -167,10 +170,9 @@
             </div>
         </section>
 
-
         <!-- TESTIMONIALS SECTION -->
         <section id="testimonials" class="overflow-hidden py-10">
-            <h2 class="text-4xl font-bold text-center">What they've said</h2>
+            <h2 class="text-4xl font-bold text-center py-6">What they've said</h2>
             <div class="flex container mx-auto">
               <!-- SWIPER -->
               <div class="flex flex-col swiper testimonial-slider py-16 w-full h-full md:flex-row">
@@ -200,9 +202,9 @@
                         <p class="text-darkGrayishBlue">“Their software allows us to track, manage and collaborate on our projects from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
                     </div>
                   </div>
-                </div> 
-                           <!-- PAGINATION BUBBLES -->
+                  <!-- PAGINATION BUBBLES -->
                 <div class="swiper-pagination"></div>
+                </div> 
             </div>
             <div class="flex flex-col py-6 mx-auto items-center">
                 <div class="button">
