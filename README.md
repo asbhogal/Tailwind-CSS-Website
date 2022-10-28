@@ -9,10 +9,13 @@
 A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a challenge by Frontend Mentor and demonstrated by Traversy Media. This repo is currently under development.
 
 <strong>:heavy_check_mark: Features</strong><br>
-  - Modern, stylish interface
-  - Form validation
+  - Interface with as close resemblance to the mockup
+  - Form validation using JS Regex
+  - Responsive testimonial slider*
   - Full responsiveness
   - Optimised for the web
+
+*the slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the script file (from line 69.)
 
 <strong>:nerd_face: Stacks Used</strong><br>
 <br>
