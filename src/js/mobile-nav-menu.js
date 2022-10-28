@@ -5,4 +5,5 @@ mobileBtn.addEventListener('click', () => {
     mobileBtn.classList.toggle('open');
     mobileMenu.classList.toggle('flex');
     mobileMenu.classList.toggle('hidden');
+    // mobileMenu.classList.toggle('open-menu');
 });
