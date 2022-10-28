@@ -13,8 +13,12 @@
         <link rel="stylesheet" href="public/output.css">
         <!-- SWIPER JS SCRIPT -->
         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" defer></script>
-        <!-- MAIN SCRIPT -->
-        <script src="src/script.js" defer></script>
+        <!-- EMAIL VALIDATION SCRIPT -->
+        <script src="src/js/email-validation.js" defer></script>
+        <!-- MOBILE NAV MENU SCRIPT -->
+        <script src="src/js/mobile-nav-menu.js" defer></script>
+        <!-- TESTIMONIAL SLIDER SCRIPT -->
+        <script src="src/js/testimonial-slider.js" defer></script>
     </head>
     <body>
         <!-- NAV BAR -->
@@ -32,20 +36,20 @@
                     <a href="#" class="hover:text-darkGrayishBlue transition ease-in">Careers</a>
                     <a href="#" class="hover:text-darkGrayishBlue transition ease-in">Community</a>
                 </div>
-                <!-- BUTTON -->
+                <!-- CTA BUTTON -->
                 <div class="button">
                     <a href="#" class="hidden text-sm p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline transition ease-in shadow-2xl shadow-brightRed hover:bg-brightRedLight md:block">Get Started</a>
                 </div>
 
-                <!-- HAMBURGER ICON -->
-                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <!-- MOBILE NAV MENU ICON -->
+                <button id="menu-btn mobile-nav-btn" class="block hamburger md:hidden focus:outline-none">
                     <img src="src/img/icon-hamburger.svg" alt="An svg of three horizontal lines stacked above one another.">
                 </button>
             </div>
 
             <!-- MOBILE MENU -->
             <div class="md:hidden">
-                <div id="menu" class="hidden absolute flex flex-col items-center self-end rounded py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-lg">
+                <div id="menu mobile-nav-menu" class="hidden absolute flex-col items-center self-end rounded py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-lg">
                     <a href="#" class="text-darkBlue">Pricing</a>
                     <a href="#" class="text-darkBlue">Product</a>
                     <a href="#" class="text-darkBlue">About Us</a>
