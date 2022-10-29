@@ -147,7 +147,7 @@ body {
     transform: rotate(45deg);
 }
 
-/************************ RESPONSIVE ************************/
+/************************ ADD. RESPONSIVE ************************/
 
 @media only screen and (max-width: 376px) {
     body {
@@ -164,6 +164,12 @@ body {
     #cta-section {
         background-image: url('../src/img/bg-simplify-section-mobile.svg');
         background-position: 80px 80px;
+    }
+}
+
+@media only screen and (min-width: 976px) {
+    #footer {
+        height: 17.1875rem;
     }
 }
 
