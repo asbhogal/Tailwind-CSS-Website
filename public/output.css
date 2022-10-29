@@ -67,6 +67,10 @@
   margin-top: 1.25rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1301,6 +1305,10 @@ body {
     margin-right: auto;
   }
 
+  .sm\:mb-2 {
+    margin-bottom: 0.5rem;
+  }
+
   .sm\:w-auto {
     width: auto;
   }
@@ -1338,6 +1346,10 @@ body {
 @media (min-width: 768px) {
   .md\:mb-4 {
     margin-bottom: 1rem;
+  }
+
+  .md\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .md\:block {
