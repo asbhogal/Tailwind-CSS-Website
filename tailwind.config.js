@@ -8,6 +8,9 @@ module.exports = {
       lg                      :   '976px',
       xl                      :   '1440px',
     },
+    fontFamily: {
+      BeVietnamPro: 'Be Vietnam Pro',
+    },
     extend: {
       colors: {
         brightRed             :   '#f25f3a',
@@ -23,7 +26,7 @@ module.exports = {
         '4xl'                 :   '0 8px 5px rgb(242 95 58 / 0.35)',
       },
       fontFamily: {
-        sans: ['Be Vietnam Pro'],
+        BeVietnamPro: "'Be Vietnam Pro', sans-serif",
       },
       height: {
         250                   :   '250px',

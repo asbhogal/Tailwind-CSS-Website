@@ -376,6 +376,10 @@
   text-align: center;
 }
 
+.font-BeVietnamPro {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -518,7 +522,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Be Vietnam Pro;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
 }
 
@@ -892,6 +896,51 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  src:    url('/public/fonts/BeVietnamPro-Regular.woff'), format('woff'),
+                url('/public/fonts/BeVietnamPro-Regular.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
+/****** BE VIETNAM PRO - 500 - MEDIUM ******/
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-weight: 500;
+
+  src:    url('/public/fonts/BeVietnamPro-Medium.woff'), format('woff'),
+                url('/public/fonts/BeVietnamPro-Medium.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
+/****** BE VIETNAM PRO - 700 - BOLD ******/
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+
+  font-weight: 700;
+
+  font-style: normal;
+
+  src:    url('/public/fonts/BeVietnamPro-Bold.woff'), format('woff'),
+                url('/public/fonts/BeVietnamPro-Bold.woff2'), format('woff2');
+
+  font-display: swap;
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 h1 {
   font-weight: 700;
   --tw-text-opacity: 1;
@@ -899,10 +948,6 @@ h1 {
 }
 
 h2 {
-  font-weight: 700;
-}
-
-h5 {
   font-weight: 700;
 }
 
@@ -1219,51 +1264,6 @@ body {
 
 .cta-button {
   box-shadow: 0 8px 10px rgb(242 95 58 / 0.35);
-}
-
-/************************ FONTS ************************/
-
-/****** BE VIETNAM PRO - 400 - REGULAR ******/
-
-@font-face {
-  font-family: 'Be Vietnam Pro';
-
-  font-style: normal;
-
-  font-weight: 400;
-
-  src:    url('fonts/BeVietnamPro-Regular.woff'), format('woff'),
-            url('fonts/BeVietnamPro-Regular.woff2'), format('woff2');
-
-  font-display: swap;
-}
-
-/****** BE VIETNAM PRO - 500 - MEDIUM ******/
-
-@font-face {
-  font-family: 'Be Vietnam Pro';
-
-  font-weight: 500;
-
-  src:    url('fonts/BeVietnamPro-Medium.woff'), format('woff'),
-            url('fonts/BeVietnamPro-Medium.woff2'), format('woff2');
-
-  font-display: swap;
-}
-
-/****** BE VIETNAM PRO - 700 - BOLD ******/
-
-@font-face {
-  font-family: 'Be Vietnam Pro';
-
-  font-weight: 700;
-
-  font-style: normal;
-
-  src:    url('fonts/BeVietnamPro-Bold.woff'), format('woff'),
-            url('fonts/BeVietnamPro-Bold.woff2'), format('woff2');
-
-  font-display: swap;
 }
 
 .hover\:bg-brightRedLight:hover {
