@@ -26,14 +26,6 @@
   }
 }
 
-.visible {
-  visibility: visible;
-}
-
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -299,14 +291,9 @@
   padding: 1.5rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .px-6 {
@@ -314,9 +301,9 @@
   padding-right: 1.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .py-40 {
@@ -342,6 +329,11 @@
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-24 {
@@ -1100,56 +1092,38 @@ h1, h2, h3, h5 {
 
 /******** MOBILE HAMBURGER MENU ********/
 
-.hamburger {
+#mobile-nav-btn {
   position: relative;
-  cursor: pointer;
-  width: 1.5rem;
-  height: 1.5rem;
-  transition: all 0.5s;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
 }
 
-.hamburger-line:nth-child(1),
-.hamburger-line:nth-child(2),
-.hamburger-line:nth-child(3) {
+#mobile-nav-btn span {
+  width: 20px;
+  height: 3px;
+  background-color: #242d52;
+  display: flex;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 1.5rem;
-  height: .125rem;
-  background-color: #000;
-  transform: rotate(0);
-  -webkit-transform: rotate(0);
-  -moz-transform: rotate(0);
-  -o-transform: rotate(0);
-  -ms-transform: rotate(0);
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition:  all 0.5s ease-in;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
 }
 
-.hamburger-line:nth-child(2) {
-  transform: translateY(7px);
-  -webkit-transform: translateY(7px);
-  -moz-transform: translateY(7px);
-  -o-transform: translateY(7px);
-  -ms-transform: translateY(7px);
+#mobile-nav-btn span:nth-child(1) {
+  top: 30%;
 }
 
-.hamburger-line:nth-child(3) {
-  transform: translateY(14px);
-  -webkit-transform: translateY(14px);
-  -moz-transform: translateY(14px);
-  -o-transform: translateY(14px);
-  -ms-transform: translateY(14px);
+#mobile-nav-btn span:nth-child(2) {
+  top: 60%;
 }
 
-.open {
-  transform: rotate(90deg);
-  transform: translateY(0px);
+#mobile-nav-btn span:nth-child(3) {
+  top: 90%;
 }
 
-.open .hamburger-line:nth-child(1) {
+#mobile-nav-btn.open span:nth-child(1) {
   top: 50%;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -1158,15 +1132,12 @@ h1, h2, h3, h5 {
   -o-transform: rotate(-45deg);
 }
 
-.open .hamburger-line:nth-child(2) {
+#mobile-nav-btn.open span:nth-child(2) {
+  top: 50%;
   opacity: 0;
-  transition: all 0.5s ease-in;
-  -webkit-transition: all 0.5s ease-in;
-  -moz-transition: all 0.5s ease-in;
-  -o-transition:  all 0.5s ease-in;
 }
 
-.open .hamburger-line:nth-child(3) {
+#mobile-nav-btn.open span:nth-child(3) {
   top: 50%;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -1174,22 +1145,6 @@ h1, h2, h3, h5 {
   -ms-transform: rotate(45deg);
   -o-transform: rotate(45deg);
 }
-
-/*#mobile-nav-menu {
-    transition: 0.3s;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    opacity: 0;
-    visibility: hidden;
-}
-
-#mobile-nav-menu .open-menu {
-    opacity: 1;
-    visibility: visible;
-    transition: all 0.5s ease-in;
-    position: fixed;
-}*/
 
 /******** SWIPER PAGINATION BUBBLE ********/
 
@@ -1451,6 +1406,11 @@ body {
     padding-right: 3rem;
   }
 
+  .md\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -1459,6 +1419,11 @@ body {
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
   }
 
   .md\:pb-8 {
@@ -1496,5 +1461,20 @@ body {
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .xl\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:pt-1 {
+    padding-top: 0.25rem;
+  }
+
+  .xl\:pb-32 {
+    padding-bottom: 8rem;
   }
 }
