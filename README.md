@@ -33,12 +33,19 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  <strong>:fountain_pen: Notes</strong>
 
+ ##### RESPONSIVENESS #####
+
  The slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the script file (from line 69.)
 
  The designs of this site have remained faithful to the breakpoints used in the mockups for mobile and laptop (375px and 1440px respectively.) To adjust these on a global scale, you can either amend the breakpoints in the <code>tailwind.config.js</code> file (the most convenient option with classes remaining intact) or adjust the inline-classes accordingly.
 
+ ##### FRONT END DELIVERY #####
 
- Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following:
+ This repo has been deployed client site using Vercel. As such, Vercel handles the server-side optimisations, security and performance metrics, incl. caching, WebP delivery, headers and compression. Adjustments to these, and others, can be made by creating a <code>vercel.json</code> file. See Vercel's documentation for further details.
+
+ ##### FORK/CLONING PERMISSIONS #####
+
+ Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following below.
 
  ##### PRODUCTION BUILD & DEPLOYMENT #####
 
@@ -57,6 +64,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
   - The 'attribution' section in the <code>footer</code> will need to be altered to reflect the new owner (being yourself) for any changes that have been made. This would include both the name and the link appended to it (which currently points to this repo)
   - Deployment for a cloned/forked repo to a third-party hosting will subsequently need the <code>link</code> present in the <code>Links</code> changed respectively to reflect the different repo created
 
-##### PULL REQUESTS #####
+ ##### PULL REQUESTS #####
 
-While the repo owner is open to new/alternative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to improved functionality, accessibility or stability. PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these separately, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
+ While the repo owner is open to new/alternative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to the following:
+ - improved functionality, 
+ - improvements to accessibility
+ - improvements to stability
+   
+PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these separately, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
