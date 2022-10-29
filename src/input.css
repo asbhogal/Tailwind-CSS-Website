@@ -141,11 +141,11 @@ body {
     background-repeat: no-repeat;
 }
 
-#cta-section::before {
+/*#cta-section::before {
     content: "";
     background-image: url('../src/img/bg-simplify-section-desktop.svg');
     transform: rotate(45deg);
-}
+}*/
 
 /************************ ADD. RESPONSIVE ************************/
 
@@ -157,13 +157,15 @@ body {
 
     #hero {
         background-image: url('../src/img/bg-simplify-section-desktop.svg');
-        background-position: 82px -72px;
-        background-size: 390px;
+        background-position: 5.125rem -4.5rem;
+        background-size: 24.375rem;
     }
 
     #cta-section {
-        background-image: url('../src/img/bg-simplify-section-mobile.svg');
-        background-position: 80px 80px;
+        background-image: url('../src/img/bg-simplify-section-desktop.svg');
+        background-position: -30.375rem .3125rem;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
