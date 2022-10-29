@@ -12,10 +12,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
   - Interface with as close resemblance to the mockup
   - Form validation using JS Regex
   - Responsive testimonial slider*
+  - Accessible elements
   - Full responsiveness
   - Optimised for the web
 
-*the slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the script file (from line 69.)
+*PLEASE SEE NOTES BELOW
 
 <strong>:nerd_face: Stacks Used</strong><br>
 <br>
@@ -31,6 +32,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
  - <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=dFgzHOX84xQ">Tailwind Crash Course - Traversy Media</a>
 
  <strong>:fountain_pen: Notes</strong>
+
+ The slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the script file (from line 69.)
+
+ The designs of this site have remained faithful to the breakpoints used in the mockups for mobile and laptop (375px and 1440px respectively.) To adjust these on a global scale, you can either amend the breakpoints in the <code>tailwind.config.js</code> file (the most convenient option with classes remaining intact) or adjust the inline-classes accordingly.
+
 
  Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following:
 
