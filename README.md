@@ -41,7 +41,7 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  ##### FRONT END DELIVERY #####
 
- This repo has been deployed client site using Vercel. As such, Vercel handles the server-side optimisations, security and performance metrics, incl. caching, WebP delivery, headers and compression. Adjustments to these, and others, can be made by creating a <code>vercel.json</code> file. See Vercel's documentation for further details.
+ This repo has been deployed client site using Vercel. As such, Vercel handles the server-side optimisations, security and performance metrics, incl. caching, WebP delivery, headers and compression (Gzip and Brotli). Adjustments to these, and others, can be made by creating a <code>vercel.json</code> file. See Vercel's documentation for further details.
 
  ##### FORK/CLONING PERMISSIONS #####
 
