@@ -51,8 +51,8 @@
   margin-top: 2.5rem;
 }
 
-.mb-32 {
-  margin-bottom: 8rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-4 {
@@ -65,10 +65,6 @@
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -522,7 +518,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Be Vietnam Pro, sans-serif;
+  font-family: Be Vietnam Pro;
   /* 4 */
 }
 
@@ -1305,10 +1301,6 @@ body {
     margin-right: auto;
   }
 
-  .sm\:mb-2 {
-    margin-bottom: 0.5rem;
-  }
-
   .sm\:w-auto {
     width: auto;
   }
@@ -1344,12 +1336,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .md\:mb-32 {
     margin-bottom: 8rem;
+  }
+
+  .md\:mb-4 {
+    margin-bottom: 1rem;
   }
 
   .md\:block {
