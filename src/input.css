@@ -44,12 +44,12 @@
 #mobile-nav-btn {
     position: relative;
     z-index: 2;
-    width: 20px;
-    height: 20px;
+    width: 1.25rem;
+    height: 1.25rem;
   }
   #mobile-nav-btn span {
-    width: 20px;
-    height: 3px;
+    width: 1.25rem;
+    height: .1875rem;
     background-color: #242d52;
     display: flex;
     position: absolute;
@@ -102,7 +102,7 @@
 }
 
 .swiper-pagination-bullet {
-    border: 1px solid #f25f3a;
+    border: .0625rem solid #f25f3a;
     background-color: transparent;
     opacity: 1;
 }
@@ -124,20 +124,20 @@ body {
     background-image: url('../src/img/bg-tablet-pattern.svg');
     background-size: 50rem;
     background-repeat: no-repeat;
-    background-position: 120% -15%;
+    background-position: 120% -8%;
 }
 
 #features {
     background-image: url('../src/img/bg-tablet-pattern.svg');
     background-size: 50rem;
     background-repeat: no-repeat;
-    background-position: -10% 15%;
+    background-position: -80% -155%;
 }
 
 #cta-section {
     background-image: url('../src/img/bg-simplify-section-desktop.svg');
-    background-size: 1705px;
-    background-position: 301px -230px;
+    background-size: 88.25rem;
+    background-position: 11.4375rem -9.625rem;
     background-repeat: no-repeat;
 }
 

@@ -291,6 +291,11 @@
   padding: 1.5rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -304,16 +309,6 @@
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
-}
-
-.py-40 {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .py-2 {
@@ -402,16 +397,8 @@
   line-height: 1;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
-}
-
-.font-light {
-  font-weight: 300;
 }
 
 .lowercase {
@@ -1099,13 +1086,13 @@ h1, h2, h3, h5 {
 #mobile-nav-btn {
   position: relative;
   z-index: 2;
-  width: 20px;
-  height: 20px;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 #mobile-nav-btn span {
-  width: 20px;
-  height: 3px;
+  width: 1.25rem;
+  height: .1875rem;
   background-color: #242d52;
   display: flex;
   position: absolute;
@@ -1160,7 +1147,7 @@ h1, h2, h3, h5 {
 }
 
 .swiper-pagination-bullet {
-  border: 1px solid #f25f3a;
+  border: .0625rem solid #f25f3a;
   background-color: transparent;
   opacity: 1;
 }
@@ -1181,20 +1168,20 @@ body {
   background-image: url('../src/img/bg-tablet-pattern.svg');
   background-size: 50rem;
   background-repeat: no-repeat;
-  background-position: 120% -15%;
+  background-position: 120% -8%;
 }
 
 #features {
   background-image: url('../src/img/bg-tablet-pattern.svg');
   background-size: 50rem;
   background-repeat: no-repeat;
-  background-position: -10% 15%;
+  background-position: -80% -155%;
 }
 
 #cta-section {
   background-image: url('../src/img/bg-simplify-section-desktop.svg');
-  background-size: 1705px;
-  background-position: 301px -230px;
+  background-size: 88.25rem;
+  background-position: 11.4375rem -9.625rem;
   background-repeat: no-repeat;
 }
 
@@ -1415,6 +1402,11 @@ body {
     padding-bottom: 4rem;
   }
 
+  .md\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
   .md\:py-1 {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -1423,11 +1415,6 @@ body {
   .md\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-
-  .md\:py-40 {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
   }
 
   .md\:pb-8 {
