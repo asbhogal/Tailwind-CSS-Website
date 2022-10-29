@@ -151,10 +151,19 @@ body {
 
 @media only screen and (max-width: 376px) {
     body {
-        background-position-x: 3.125rem -50%;
+        background-position: 5.125rem -4.5rem;
+        background-size: 24.375rem;
     }
+
+    #hero {
+        background-image: url('../src/img/bg-simplify-section-desktop.svg');
+        background-position: 82px -72px;
+        background-size: 390px;
+    }
+
     #cta-section {
-        background-image: url('../src/img/bg-simplify-section-mobile.svg') !important;
+        background-image: url('../src/img/bg-simplify-section-mobile.svg');
+        background-position: 80px 80px;
     }
 }
 
