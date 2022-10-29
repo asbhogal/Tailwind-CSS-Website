@@ -46,7 +46,7 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
  ##### FORK/CLONING PERMISSIONS #####
 
  Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following:
-  - Please keep the name of the Author unchanged unless you are creating it entirely from scratch. If not, you are welcome to add your name as a contributor.
+  - Please keep the author in the <code>package.json</code> unchanged unless you are creating it entirely from scratch. If not, you are welcome to add your details as a contributor.
   - Please keep the build screenshots in the main directory unchanged (incl. file names and repo username) unless you are changing it and subsequently the screenshots will be different (Frontend Mentor encourage different approaches and thus differentiations. By attempting it yourself, you will have a different approach where the end result will differ and should therefore be compared.)
 
  As well as this, please read below.

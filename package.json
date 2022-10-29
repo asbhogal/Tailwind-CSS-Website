@@ -1,8 +1,9 @@
 {
   "name": "tailwind-css-website",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a challenge by Frontend Mentor and demonstrated by Traversy Media.",
+  "homepage": "https://github.com/asbhogal/Tailwind-CSS-Website",
+
   "scripts": {
     "build-css": "npx tailwind -i ./src/input.css -o ./public/output.css",
     "watch-css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
