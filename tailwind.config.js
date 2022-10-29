@@ -3,10 +3,10 @@ module.exports = {
   content: ['./src/**/*.{js,css}', './*.html'],
   theme: {
     screens: {
-      sm: '375px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
+      sm                      :   '375px',
+      md                      :   '768px',
+      lg                      :   '976px',
+      xl                      :   '1440px',
     },
     fontFamily: {
       sans: ['Be Vietnam Pro', 'sans-serif']
@@ -22,9 +22,12 @@ module.exports = {
         veryPaleRed           :   '#ffefeb',
         veryLightGray         :   '#fafafa',
       },
+      dropShadow: {
+        '4xl'                 :   '0 8px 5px rgb(242 95 58 / 0.35)',
+      },
       height: {
-        250: '250px',
-        275: '275px',
+        250                   :   '250px',
+        275                   :   '275px',
       }
     }
   },

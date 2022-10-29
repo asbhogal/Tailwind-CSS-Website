@@ -173,6 +173,10 @@ body {
     }
 }
 
+.cta-button {
+    box-shadow: 0 8px 10px rgb(242 95 58 / 0.35);
+}
+
 /************************ FONTS ************************/
 
 /****** BE VIETNAM PRO - 400 - REGULAR ******/
