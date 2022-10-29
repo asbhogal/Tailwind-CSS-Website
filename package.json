@@ -8,7 +8,7 @@
     "watch-css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.2.1"

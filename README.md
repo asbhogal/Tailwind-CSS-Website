@@ -45,7 +45,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  ##### FORK/CLONING PERMISSIONS #####
 
- Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following below.
+ Forking/cloning this repo to work on yourself is welcomed. Before doing so however, the repo owner strongly advises reading the following:
+  - Please keep the name of the Author unchanged unless you are creating it entirely from scratch. If not, you are welcome to add your name as a contributor.
+  - Please keep the build screenshots in the main directory unchanged (incl. file names and repo username) unless you are changing it and subsequently the screenshots will be different (Frontend Mentor encourage different approaches and thus differentiations. By attempting it yourself, you will have a different approach where the end result will differ and should therefore be compared.)
+
+ As well as this, please read below.
 
  ##### PRODUCTION BUILD & DEPLOYMENT #####
 
@@ -63,12 +67,11 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
   - The <code>Fonts</code> are locally hosted and can be found in the <code>src</code> directory under <code>/fonts</code> Any changes to these will subsequently need to be made in the <code>input.css</code> stylesheet in order for Tailwind to compile it correctly to the <code>output.css</code>
   - The 'attribution' section in the <code>footer</code> will need to be altered to reflect the new owner (being yourself) for any changes that have been made. This would include both the name and the link appended to it (which currently points to this repo)
   - Deployment for a cloned/forked repo to a third-party hosting will subsequently need the <code>link</code> present in the <code>Links</code> changed respectively to reflect the different repo created
-
  ##### PULL REQUESTS #####
 
  While the repo owner is open to new/alternative approaches to the code leveraged in this repo, please kindly note he is only considering PRs pertaining to the following:
- - improved functionality, 
- - improvements to accessibility
- - improvements to stability
+ - Improved functionality, 
+ - Improvements to accessibility
+ - Improvements to stability
    
 PRs therefore pertaining to design or aesthetics will not be considered at this time. If you would like to discuss these separately, the repo owner will happily do so. You may contact him either via <a href="mailto:amansinghbhogal1@gmail.com">email</a> or via <a href="www.linkedin.com/in/amansinghbhogal">LinkedIn.</a>
