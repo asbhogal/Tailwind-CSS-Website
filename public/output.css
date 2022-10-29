@@ -87,6 +87,14 @@
   height: 2rem;
 }
 
+.h-250 {
+  height: 250px;
+}
+
+.h-auto {
+  height: auto;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1349,6 +1357,14 @@ body {
     height: 1.5rem;
   }
 
+  .md\:h-250 {
+    height: 250px;
+  }
+
+  .md\:h-auto {
+    height: auto;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1430,6 +1446,12 @@ body {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  @media (min-width: 976px) {
+    .md\:lg\:h-250 {
+      height: 250px;
+    }
+  }
 }
 
 @media (min-width: 976px) {
@@ -1486,6 +1508,10 @@ body {
 }
 
 @media (min-width: 1440px) {
+  .xl\:h-275 {
+    height: 275px;
+  }
+
   .xl\:px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
