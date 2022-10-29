@@ -6,7 +6,7 @@
 
 </div>
 
-A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of a challenge by Frontend Mentor and demonstrated by Traversy Media. This repo is currently under development.
+A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of the 'Manage landing page' challenge by Frontend Mentor and demonstrated by Traversy Media. This repo is currently under development.
 
 <strong>:heavy_check_mark: Features</strong><br>
   - Interface with as close resemblance to the mockup
@@ -35,9 +35,9 @@ A responsive website built using the Tailwind CSS Framework and HTML5 for a fict
 
  ##### RESPONSIVENESS #####
 
- The slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the script file (from line 69.)
+ The designs of this site have remained faithful to the breakpoints used in the mockups for mobile and laptop (375px and 1440px respectively.) To adjust these on a global scale, you can either amend the breakpoints in the <code>tailwind.config.js</code> file (the most convenient option with classes remaining intact) or adjust the inline-classes accordingly on a specific, case-by-case basis.
 
- The designs of this site have remained faithful to the breakpoints used in the mockups for mobile and laptop (375px and 1440px respectively.) To adjust these on a global scale, you can either amend the breakpoints in the <code>tailwind.config.js</code> file (the most convenient option with classes remaining intact) or adjust the inline-classes accordingly.
+ The slider uses the breakpoints provided in the src files of the project to choose the number of testimonial cards to display at any one time. These can easily be adjusted in the <code>/src/js/testimonial-slider.js</code> file.
 
  ##### FRONT END DELIVERY #####
 
