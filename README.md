@@ -6,7 +6,7 @@
 
 </div>
 
-A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of the 'Manage landing page' challenge by Frontend Mentor and demonstrated by Traversy Media. This repo is currently under development.
+A responsive website built using the Tailwind CSS Framework and HTML5 for a fictional company as part of the 'Manage landing page' challenge by Frontend Mentor and demonstrated by Traversy Media.
 
 <strong>:heavy_check_mark: Features</strong><br>
   - Interface with as close resemblance to the mockup
